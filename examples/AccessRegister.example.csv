@@ -1,0 +1,3 @@
+Server,Share,Directory,Principal,PrincipalType,Permission,AccessType,Inherited,Owner,OwnerUPN,OwnerSource,OwnershipStatus,ReviewStatus
+FS01,Finance,\\\\FS01\\Finance\\Payroll,CONTOSO\\ACL-Finance-Payroll-RW,Group,Modify,Allow,False,Jane Smith,jane.smith@contoso.example,managedBy,OWNER_VERIFIED,Pending
+FS01,Finance,\\\\FS01\\Finance\\Payroll,CONTOSO\\jsmith,User,Modify,Allow,False,Jane Smith,jane.smith@contoso.example,ResourceFallback,OWNER_VERIFIED,Pending

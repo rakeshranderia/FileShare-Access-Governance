@@ -1,0 +1,4 @@
+Group,Owner,OwnerSource,OwnershipStatus,FirstDetected,AgeDays,Detail
+ACL-HR-RW,John Brown,managedBy,OWNER_DISABLED,2026-09-14,3,Referenced owner account is disabled
+ACL-Legal-RW,,,OWNER_MISSING,2026-09-17,0,No owner could be resolved
+ACL-Archive-R,IT Operations,managedBy,OWNER_INVALID_OBJECT_TYPE,2026-09-17,0,Owner resolves to a group rather than an enabled user

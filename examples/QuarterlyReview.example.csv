@@ -1,0 +1,2 @@
+ReviewPeriod,OwnerUPN,Server,Share,Directory,Principal,Permission,Decision,Reviewer,ReviewDate,Comments,RemediationRequired,RemediationStatus,EvidenceID
+2026-Q3,jane.smith@contoso.example,FS01,Finance,\\\\FS01\\Finance\\Payroll,CONTOSO\\ACL-Finance-Payroll-RW,Modify,Keep,jane.smith@contoso.example,2026-09-30,Access remains required,False,Not Required,AR-2026Q3-0001

@@ -1,0 +1,23 @@
+{
+  "Ownership": {
+    "PrimaryAttribute": "managedBy",
+    "ExtensionAttribute": "",
+    "DescriptionOwnerPattern": "(?im)(?:^|[;|\\r\\n])\\s*Owner\\s*:\\s*([^;|\\r\\n]+)",
+    "RequireEnabledUserOwner": true,
+    "RequireOwnerEmail": true
+  },
+  "Discovery": {
+    "IncludeInherited": true,
+    "FlagDirectUserPermissions": true,
+    "FlagUnresolvedSids": true
+  },
+  "Output": {
+    "Path": ".\\output"
+  },
+  "Notifications": {
+    "Enabled": false,
+    "To": "iam@example.com",
+    "From": "access-governance@example.com",
+    "SmtpServer": "smtp.example.com"
+  }
+}

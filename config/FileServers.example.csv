@@ -1,0 +1,4 @@
+Server,Share,Enabled,Recurse,Notes
+FS01,Finance,true,true,Finance production share
+FS01,HR,true,true,HR production share
+FS02,Projects,true,true,Project data
