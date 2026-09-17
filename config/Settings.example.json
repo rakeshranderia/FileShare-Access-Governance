@@ -15,9 +15,10 @@
     "Path": ".\\output"
   },
   "Notifications": {
-    "Enabled": false,
+    "GenerateHtml": true,
+    "Transport": "None",
     "To": "iam@example.com",
     "From": "access-governance@example.com",
-    "SmtpServer": "smtp.example.com"
+    "Notes": "Transport intentionally environment-specific. Use Graph, SMTP relay or another approved enterprise service."
   }
 }

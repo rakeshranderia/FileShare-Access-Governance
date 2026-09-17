@@ -90,3 +90,14 @@ This toolkit can support access-rights management, ownership accountability, per
 
 ## Roadmap
 Future modules may use the same governance pattern for SharePoint Online, Teams/M365 Groups, OneDrive and other repositories, but those platforms are deliberately outside v1.0.
+
+## v1.0 implementation baseline
+
+The implementation is deliberately **read-only with respect to permissions and Active Directory**. Discovery and assurance collect evidence and identify remediation; they do not automatically remove ACLs, alter group membership or reassign ownership. This separation keeps business approval, technical change and evidence distinct.
+
+Operational modes:
+- `Discovery` — recursively/non-recursively enumerates configured NTFS paths, resolves AD principals, validates group ownership and creates an access register plus exception dataset.
+- `OwnershipCheck` — revalidates known ACL groups from the latest register without rescanning every directory, ages exceptions and can generate the daily HTML report.
+- `QuarterlyReview` — groups verified records by owner and creates owner-specific certification CSV/email packages; unresolved ownership is diverted to a governance exception file.
+
+See [`docs/09-Implementation-Runbook.md`](docs/09-Implementation-Runbook.md) and [`docs/10-Testing-and-Acceptance.md`](docs/10-Testing-and-Acceptance.md) before deployment.

@@ -1,9 +1,13 @@
 # Changelog
-## 1.0.0-draft
-- Defined Windows file-share/NTFS scope and M365 boundary.
-- Added ACL discovery baseline.
-- Added `managedBy`-first ownership resolution and validation.
-- Added daily ownership assurance model and exception states.
-- Added quarterly owner certification model and email templates.
-- Added JML/offboarding integration guidance.
-- Added SharePoint/evidence schema guidance and ISO 27001 positioning.
+
+## v1.0.0-rc1 - 2026-09-17
+- Hardened ACL discovery and AD principal resolution.
+- Added `managedBy`-first ownership validation with fallback/conflict handling.
+- Added direct-user and unresolved-principal visibility.
+- Added daily ownership exception history, ageing and HTML report generation.
+- Added owner-grouped quarterly review packages and governance exception output.
+- Added implementation runbook, acceptance criteria, Pester starter tests and repository hygiene files.
+- Reaffirmed scope: Windows/NTFS file shares only; SharePoint is an optional evidence/workflow destination, not an access target.
+
+## v0.1.0
+- Initial publication structure and governance model.
